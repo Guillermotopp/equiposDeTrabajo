@@ -1,0 +1,23 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6c6159;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #6c6159;
+}
+
+.orgSection img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.orgSection img:hover {
+    filter: brightness(1.2); /* Incrementa el brillo de la imagen */
+}
